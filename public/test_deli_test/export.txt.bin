@@ -1,0 +1,29 @@
+Array
+(
+    [date_time_from_file] => 2022/06/17	13:37:49
+    [client_name_from_file] => Orange sp z o. o.
+    [contractor] => Fast-service
+    [route_name] => 1/osiedle latarnikow
+    [cable_section] => 1
+    [operator] => Andrzej
+    [place_location] => Gdansk
+    [pipe_notes] => 10mm
+    [pipe_manufacturer] => nieznany
+    [pipe_type] => cienka scianka
+    [color_marking] => Biala
+    [pipe_outer_diameter] => 8mm
+    [pipe_thickness] => 1mm
+    [cable_notes] => bez uwag
+    [cable_manufacturer] => Fibrain
+    [cable_symbol_color] => brak
+    [cable_how_many_fibers] => 8
+    [cable_diameter] => 2.5
+    [cable_crash_test] => 55
+    [blower_lubricant] => slub 100
+    [blower_compressor] => atlas
+    [blower_compressor_pressure] => 8
+    [blower_compressor_efficiency] => 0.5m
+    [separator] => Nie
+    [radiator] => Nie
+    [temperature] => 
+)

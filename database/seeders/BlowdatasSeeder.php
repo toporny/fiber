@@ -1,0 +1,242 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+
+
+class BlowdatasSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+
+
+    private function iii($blowing_id) {
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:19:51', 'speed' => 2.0, 'force' => 2.0, 'pressure' => 1.0, 'length' => 10, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:11:51', 'speed' => 1.1, 'force' => 1.1, 'pressure' => 1.1, 'length' => 11, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:12:51', 'speed' => 1.2, 'force' => 1.2, 'pressure' => 1.2, 'length' => 12, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:13:51', 'speed' => 1.3, 'force' => 1.3, 'pressure' => 1.3, 'length' => 13, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:14:51', 'speed' => 1.4, 'force' => 1.4, 'pressure' => 1.4, 'length' => 14, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:15:51', 'speed' => 1.5, 'force' => 1.5, 'pressure' => 1.5, 'length' => 15, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:16:51', 'speed' => 1.1, 'force' => 1.1, 'pressure' => 1.1, 'length' => 16, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:17:51', 'speed' => 1.7, 'force' => 1.7, 'pressure' => 1.7, 'length' => 17, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:18:51', 'speed' => 1.8, 'force' => 1.8, 'pressure' => 1.8, 'length' => 18, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:19:51', 'speed' => 1.9, 'force' => 1.9, 'pressure' => 1.9, 'length' => 19, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:20:51', 'speed' => 2.0, 'force' => 2.0, 'pressure' => 1.0, 'length' => 20, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:21:51', 'speed' => 1.1, 'force' => 1.1, 'pressure' => 1.1, 'length' => 21, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:22:51', 'speed' => 1.2, 'force' => 1.2, 'pressure' => 1.2, 'length' => 22, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:23:51', 'speed' => 1.3, 'force' => 1.3, 'pressure' => 1.3, 'length' => 23, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:24:51', 'speed' => 1.4, 'force' => 1.4, 'pressure' => 1.4, 'length' => 24, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:25:51', 'speed' => 1.5, 'force' => 1.5, 'pressure' => 1.5, 'length' => 25, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:26:51', 'speed' => 1.6, 'force' => 1.6, 'pressure' => 1.6, 'length' => 26, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:27:51', 'speed' => 1.7, 'force' => 1.7, 'pressure' => 1.7, 'length' => 27, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:28:51', 'speed' => 1.8, 'force' => 1.8, 'pressure' => 1.8, 'length' => 28, 'trip_id' => 1 ],);
+        DB::table('blowdatas')->insert(['blowing_id' => $blowing_id, 'datetime' => '2022-06-09 21:29:51', 'speed' => 1.9, 'force' => 1.9, 'pressure' => 1.9, 'length' => 29, 'trip_id' => 1 ],);
+    }
+
+    public function run()
+    {
+        //for ($i=2; $i<8; $i++) $this->iii($i);
+
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:09', 'speed' => 26.16, 'force' => 44.00, 'pressure' => 0.00, 'length' => 0.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:11', 'speed' => 26.16, 'force' => 44.00, 'pressure' => 0.00, 'length' => 1.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:13', 'speed' => 25.95, 'force' => 44.00, 'pressure' => 0.00, 'length' => 1.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:15', 'speed' => 25.95, 'force' => 44.00, 'pressure' => 0.00, 'length' => 3.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:17', 'speed' => 25.13, 'force' => 44.00, 'pressure' => 0.00, 'length' => 4.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:19', 'speed' => 36.78, 'force' => 44.00, 'pressure' => 0.00, 'length' => 5.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:21', 'speed' => 36.78, 'force' => 44.00, 'pressure' => 0.00, 'length' => 6.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:23', 'speed' => 38.71, 'force' => 44.00, 'pressure' => 0.00, 'length' => 7.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:25', 'speed' => 38.71, 'force' => 44.00, 'pressure' => 0.00, 'length' => 9.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:27', 'speed' => 44.58, 'force' => 42.00, 'pressure' => 0.00, 'length' => 0.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:29', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 12.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:31', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 13.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:33', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 14.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:35', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 15.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:37', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 17.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:39', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 18.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:41', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 20.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:43', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 21.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:45', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 22.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:47', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 23.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:49', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 25.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:51', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 26.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:53', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 27.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:55', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 29.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:57', 'speed' => 38.55, 'force' => 40.00, 'pressure' => 0.00, 'length' => 30.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:31:59', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 31.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:01', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 33.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:03', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 34.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:05', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 36.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:07', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 37.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:09', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 38.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:11', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 40.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:13', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 41.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:15', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 42.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:17', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 43.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:19', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 45.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:21', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 47.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:23', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 48.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:25', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 49.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:27', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 51.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:29', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 52.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:31', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 53.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:33', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 54.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:35', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 56.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:37', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 57.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:39', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 58.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:41', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 60.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:43', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 61.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:45', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 63.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:47', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 64.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:49', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 65.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:51', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 67.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:53', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 68.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:55', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 69.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:57', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 71.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:32:59', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 72.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:01', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 73.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:03', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 75.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:05', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 76.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:07', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 77.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:09', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 79.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:11', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 80.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:13', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 82.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:15', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 83.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:17', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 84.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:19', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 85.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:21', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 87.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:23', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 88.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:25', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 89.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:27', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 91.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:29', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 92.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:31', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 93.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:33', 'speed' => 39.18, 'force' => 40.00, 'pressure' => 0.00, 'length' => 95.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:35', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 96.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:37', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 98.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:39', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 99.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:41', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 100.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:43', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 102.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:45', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 103.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:47', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 104.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:49', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 105.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:51', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 107.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:53', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 109.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:55', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 110.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:57', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 111.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:33:59', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 113.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:01', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 114.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:03', 'speed' => 35.29, 'force' => 40.00, 'pressure' => 0.00, 'length' => 115.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:05', 'speed' => 34.04, 'force' => 40.00, 'pressure' => 0.00, 'length' => 117.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:07', 'speed' => 34.53, 'force' => 40.00, 'pressure' => 0.00, 'length' => 118.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:09', 'speed' => 33.68, 'force' => 40.00, 'pressure' => 0.00, 'length' => 119.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:11', 'speed' => 32.43, 'force' => 40.00, 'pressure' => 0.00, 'length' => 120.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:13', 'speed' => 33.68, 'force' => 40.00, 'pressure' => 0.00, 'length' => 121.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:15', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 122.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:17', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 124.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:19', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 125.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:21', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 126.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:23', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 127.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:25', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 129.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:27', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 130.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:29', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 132.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:31', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 133.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:33', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 134.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:35', 'speed' => 39.18, 'force' => 40.00, 'pressure' => 0.00, 'length' => 136.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:37', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 137.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:39', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 138.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:41', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 140.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:43', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 141.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:45', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 143.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:47', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 144.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:49', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 145.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:51', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 147.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:53', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 148.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:55', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 150.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:57', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 151.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:34:59', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 152.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:01', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 153.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:03', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 155.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:05', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 156.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:07', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 157.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:09', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 159.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:11', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 160.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:13', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 161.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:15', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 162.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:17', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 164.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:19', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 166.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:21', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 167.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:23', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 168.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:25', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 169.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:27', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 171.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:29', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 172.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:31', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 174.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:33', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 175.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:35', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 176.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:37', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 178.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:39', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 179.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:41', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 180.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:43', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 182.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:45', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 183.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:47', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 185.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:49', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 186.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:51', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 187.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:53', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 188.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:55', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 190.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:57', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 191.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:35:59', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 192.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:01', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 194.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:03', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 195.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:05', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 197.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:07', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 198.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:09', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 199.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:11', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 200.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:13', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 202.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:15', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 204.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:17', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 205.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:19', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 206.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:21', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 207.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:23', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 209.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:25', 'speed' => 39.18, 'force' => 40.00, 'pressure' => 0.00, 'length' => 210.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:27', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 211.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:29', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 213.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:31', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 214.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:33', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 216.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:35', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 217.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:37', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 218.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:39', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 219.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:41', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 221.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:43', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 222.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:45', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 223.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:47', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 225.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:49', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 226.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:51', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 227.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:53', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 229.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:55', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 230.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:57', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 232.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:36:59', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 233.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:01', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 234.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:03', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 235.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:05', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 237.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:07', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 239.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:09', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 240.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:11', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 241.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:13', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 242.83, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:15', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 244.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:17', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 246.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:19', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 247.17, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:21', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 248.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:23', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 249.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:25', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 251.00, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:27', 'speed' => 39.02, 'force' => 40.00, 'pressure' => 0.00, 'length' => 252.33, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:29', 'speed' => 38.71, 'force' => 40.00, 'pressure' => 0.00, 'length' => 253.67, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:31', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 255.50, 'trip_id' => 1]);
+        DB::table('blowdatas')->insert(['blowing_id' =>1, 'datetime' => '2022-06-17 13:37:33', 'speed' => 38.87, 'force' => 40.00, 'pressure' => 0.00, 'length' => 256.00, 'trip_id' => 1]);
+ 
+     }
+}

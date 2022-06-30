@@ -1,0 +1,19 @@
+{
+  "Welcome to our website": "Witamy na naszej stronie internetowej",
+  "Only authenticated users can access this section.": "Tylko uwierzytelnieni użytkownicy mają dostęp do tej sekcji.",
+  "Login form" : "Formularz logowania",
+  "Email or Username" : "Email lub nazwa użytownika",
+  "Password" : "Hasło",
+  "Remember me" : "Zapamiętaj mnie",
+  "Login" : "Zaloguj",
+
+"View" :"więcej",
+"Edit" :" edycja",
+"Delete" :"kasuj",
+"Username" :"Użytkownik",
+"Email" :"Email",
+"Blows" :"Wdmuchiwania",
+"Created at" :"Utworzono",
+"Action" :"Akcja"
+
+}

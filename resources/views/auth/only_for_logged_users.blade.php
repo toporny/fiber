@@ -1,0 +1,1 @@
+only_for_logged_users with proper permission
